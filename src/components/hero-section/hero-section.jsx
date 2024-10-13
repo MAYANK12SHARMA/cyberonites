@@ -13,7 +13,7 @@ export default function HeroSection() {
         <div className="mt-48 sm:mt-64 flex justify-center items-center flex-col">
           <div className="flex flex-col text-center">
             <span className="text-white text-lg sm:text-5xl">Welcome to</span>
-            <span className="text-[#3B82F6] font-bold text-xl sm:text-6xl">
+            <span className="text-cyan-300 font-bold text-xl sm:text-6xl">
               Cyberonites
             </span>
           </div>
@@ -22,9 +22,9 @@ export default function HeroSection() {
         <RightTopBeam />
       </div>
       {/* Mobile only */}
-      <div className="flex font-cyberfont flex-col p-2 lg:hidden">
+      <div className="flex font-cyberfont flex-col p-4 lg:hidden">
         <Tagline />
-        <DescriptionArea className="mt-8 text-sm" />
+        <DescriptionArea className="mt-8 text-sm md:text-lg" />
       </div>
     </div>
   );
